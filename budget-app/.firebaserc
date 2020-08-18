@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "budget-app-4003f": {
+      "hosting": {
+        "budget-app": [
+          "budget-app-4003f"
+        ]
+      }
+    }
+  }
+}
