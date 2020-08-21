@@ -1,1 +1,13 @@
-<p>landing-page works!</p>
+<div class="top-bar" id="top-bar">
+    <h1>{{title}}</h1>
+</div>
+
+<section class="total-budget-section">
+    <h2 [ngClass]="{'red': totalBudget < 0, 'green': totalBudget}">{{totalBudget}}</h2>
+</section>
+
+<section class="add-changes-section">
+    <div class="add-item-container">
+        <app-add-changes-modal style="padding: 20px;"></app-add-changes-modal>
+    </div>
+</section>
